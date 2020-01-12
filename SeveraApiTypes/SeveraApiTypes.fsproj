@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageId>Mutex.Visma.Severa.API.Types.ForUI</PackageId>
-    <Version>0.1.1</Version>
+    <Version>0.1.2</Version>
     <Authors>Jarmo Muukka, Mutex Oy</Authors>
     <Company>Mutex Oy</Company>
     <Product>Visma Severa</Product>
