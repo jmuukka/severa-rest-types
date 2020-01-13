@@ -4,6 +4,6 @@ module API =
 
     open SwaggerProvider
 
-    let [<Literal>] Schema = "https://severa.visma.com/PSARest/restapidoc/docs/v0.2"
+    let [<Literal>] Schema = "https://publicrest.severa.visma.com/PSAPublicRest/RestApiDoc/docs/v0.1"
 
-    type InternalApi = SwaggerClientProvider<Schema, PreferAsync=true, IgnoreControllerPrefix=false>
+    type ApiTypes = SwaggerClientProvider<Schema, PreferAsync=true>
